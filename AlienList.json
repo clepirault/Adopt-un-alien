@@ -9,8 +9,8 @@
       "bonnitude":"Canon de l'espace",
       "phrase":"Je sais comme personne pétrifier et tétaniser les gens avec mon gros duvet.Une esthéticienne fera mon affaire",
       "planete":"Monstropolis",
-      "hobbies":"TERREUR d'élite",
-    }
+      "hobbies":"TERREUR d'élite"
+    },
     {
       "id":2,
       "species": "Humain",
@@ -21,7 +21,7 @@
       "phrase":"Epouvanter, c'est mon métier!",
       "planete":"Neiges de l'Himalaya",
       "hobbies":"Regler les crises d’énergie, la baisse des bénéfices et retrouver une petite fille humaine en cavale"
-    }
+    },
     {
       "id":3,
       "species": "Alien",
@@ -32,7 +32,7 @@
       "phrase":"Parle très vite mais agit peu",
       "planete":"Décapotable",
       "hobbies":"Dirige tous les matins ma séance d’entraînement : pompes, abdominaux, poses effrayantes et rugissements sont au programme. "
-    }
+    },
     {
       "id":4,
       "species": "Débris de la galaxie",
@@ -43,7 +43,7 @@
       "phrase":"A cheval sur les détails et les principes, j'ai une vivacité d'esprit surprenante pour une limace",
       "planete":"Epouvanteuse",
       "hobbies":"lire mes journaux à scandale pendant mon heure de déjeuner"
-    }
+    },
     {
       "id":5,
       "species": "Human",
@@ -54,7 +54,7 @@
       "phrase":"J'ai peur de rien et je suis insconciente",
       "planete":"Minou",
       "hobbies":"de voir à quel point l’énergie que je produit par mon rire peut être puissante."
-    }
+    },
     {
       "id":6,
       "species": "Alien",
@@ -65,7 +65,7 @@
       "phrase":"Douce et ensorcelante.",
       "planete":"Minou",
       "hobbies":"Le luxe et les poils"
-    }
+    },
     {
       "id":7,
       "species": "Alien",
@@ -76,7 +76,7 @@
       "phrase":"J'aime préparer en cachette un plan diabolique pour arriver à mes fins.",
       "planete":"Machine infernale",
       "hobbies":"Inventer un système pour arracher des hurlements aux enfants."
-    }
+    },
     {
       "id":8,
       "species": "Alien",
@@ -87,7 +87,7 @@
       "phrase":"J'aime sortir ma tenue d'urgence pour me protéger des contaminations",
       "planete":"Chauve souris",
       "hobbies":"Arracher des cheveux dans une fourrure de monstre"
-    }
+    },
     {
       "id":9,
       "species": "Alien",
@@ -98,7 +98,7 @@
       "phrase":"Si je me coupe les ongles des pieds je fais du 42 sinon du 56",
       "planete":"Epouvanteuse",
       "hobbies":"Aiguiser les griffes,brosser les crocs et limer les cornes."
-    }
+    },
     {
       "id":10,
       "species": "Alien",
@@ -109,7 +109,7 @@
       "phrase":"Si tu es petit rond et marron et que tu sens pas bon, tu es fais pour moi",
       "planete":"",
       "hobbies":"Les grandes balades sur la plage et construire en secret des machines à aspirer des crottes."
-    }
+    },
     {
       "id":11,
       "species": "Alien",
@@ -119,7 +119,7 @@
       "phrase":"Moche et sans ami – sauras-tu me complimenter ? ",
       "planete": "ZigmaB",
       "hobbies": "Regarder la Tv et manger des sandwichs"
-    }
+    },
     
 {
       "id":12,
@@ -130,7 +130,7 @@
       "phrase": "Si un jour ton cœur ne bat plus, je te donnerai le mien, car sans toi, il me sert à rien.",
       "planete":"ZigmaB",
       "hobbies":"Raconter des mythos",
-    }
+    },
     
       {
       "id":13,
@@ -141,7 +141,7 @@
       "phrase":"Si à chaque fois que je pensais à toi, il poussait une fleur, alors la Terre serait un immense jardin de roses.",
       "planete": "ZigmaB",
       "hobbies": "lire un livre, boire de l'eau",
-    }
+    },
     
       
 {
@@ -153,7 +153,7 @@
       "phrase": "Je suis nouveau en ville, pourrais-tu m’indiquer le chemin pour aller à ton appartement ?",
       "planete":"ZigmaB",
       "hobbies":"Manger, dormir et inversement",
-    }
+    },
     {
       "id":15,
       "species": "humain",
@@ -163,7 +163,7 @@
       "phrase": "Besoin de quelqu'un pour monter un meuble Ikea",
       "planete":"Terre",
       "hobbies":"Boire un verre en terasse avec vu sur Neptune",
-    }
+    },
 
 {
       "id":16,
@@ -173,8 +173,6 @@
       "bonnitude": "Débris de la galaxie",
       "phrase": "Besoin de tendresse dans ce monde de brutes",
       "planete":"Terre",
-      "hobbies":"Tuer",
+      "hobbies":"Tuer"
     }
-     
-      
-}
+  ]}
