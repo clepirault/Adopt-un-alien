@@ -26,7 +26,7 @@ function Footer(){
             <Route path="/pecho">
               <ProfilList />
             </Route>
-            <Route path="/">
+            <Route exact path="/">
               <Home />
             </Route>
           </Switch>

@@ -38,10 +38,12 @@ body{
   align-items: center;
   justify-content: space-around;
 }
+
 button{
   background-color: rgba(255, 255, 255, 0.4);
-  height: 2em;
+  height: 3em;
   width: 30vw;
   color: white;
   border-radius: 1em;
+  font-size: 20px;
 }
