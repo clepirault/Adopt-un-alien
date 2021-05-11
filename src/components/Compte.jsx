@@ -2,6 +2,8 @@ import './Compte.css';
 import MatchItem from './MatchItem';
 
 function Compte() {
+  const allMatches = JSON.parse(localStorage.getItem('match'));
+  console.log(allMatches);
   return (
     <div className='compte'>
       <div id='wrapper'>
@@ -19,8 +21,10 @@ function Compte() {
           </div>
         </section>
       </div>
-      <h1>Mes matchs </h1>
-      <MatchItem />
+      <h1>Mes matchs</h1>
+      <MatchItem {...allMatches[0]} />
+      <MatchItem {...allMatches[1]} />
+      <MatchItem {...allMatches[2]} />
     </div>
   );
 }

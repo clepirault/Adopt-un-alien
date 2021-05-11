@@ -2,7 +2,6 @@ import React from 'react';
 
 function MatchItem(props) {
   const { name, image, bonnitude, phrase, hobbies } = props;
-
   return (
     <div>
       <section>
