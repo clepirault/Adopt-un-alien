@@ -1,0 +1,15 @@
+section {
+  display: flex;
+}
+
+#wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  margin: 2em;
+  border-radius: 100px;
+  max-width: 75px;
+}
