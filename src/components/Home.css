@@ -1,0 +1,47 @@
+body{
+  background-image: url('./wallpaper.jpg');
+  color: rgb(78, 255, 101);
+}
+
+.home{
+  background-image: url('./background.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  filter: opacity(0.8);
+}
+.home h1{
+  color: rgb(78, 255, 101);
+  font-family: 'Press Start 2P', cursive;
+}
+.form{
+  font-size: 1.3em;
+  width: 80vw;
+  height: 75vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.form div{
+  display: flex;
+  justify-content: space-around;
+}
+.form div div{
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 35vw;
+  border-radius: 1em;
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+button{
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 2em;
+  width: 30vw;
+  color: white;
+  border-radius: 1em;
+}
