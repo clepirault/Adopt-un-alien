@@ -1,17 +1,21 @@
 import './AlienList.css';
 
 function AlienItem(props) {
-  return(
+  return (
     <div>
-      <div className="random-alien">
-      <img className="avatar-alien" src="https://randomuser.me/api/portraits/med/men/75.jpg" alt="avatar"/>
-      <h1 className="Name">{profiles.name}</h1>
-      <h1>Bonnitude</h1>
-      <h1>Phrase</h1>
-      <h1>Planete</h1>
+      <div className='random-alien'>
+        <img
+          className='avatar-alien'
+          src={props.image}
+          alt='avatar'
+        />
+        <h1 className='Name'>{props.name}</h1>
+        <h1>{props.bonnitude}</h1>
+        <h1>{props.state}</h1>
+        <h1>{props.planete}</h1>
+      </div>
     </div>
-    </div>
-  )
+  );
 }
 
 export default AlienItem;

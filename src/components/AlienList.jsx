@@ -1,7 +1,8 @@
+import { useState } from 'react';
 import AlienItem from './AlienItem';
 import './AlienList.css';
 
-  const profiles = [
+const profiles = [
   {
     id:1,
     species: "Alien",
@@ -37,7 +38,7 @@ import './AlienList.css';
   },
   {
     id:4,
-    species: "Débris de la galaxie",
+    species: "Alien",
     name:"Germaine" ,
     age:40,
     image:"https://djoul3.pagesperso-orange.fr/monstres&cie/personnages/germaine/germaine.JPG",
@@ -48,7 +49,7 @@ import './AlienList.css';
   },
   {
     id:5,
-    species: "Human",
+    species: "Humain",
     name:"Marie Gibbs" ,
     age:4,
     image:"https://djoul3.pagesperso-orange.fr/monstres&cie/personnages/bouh/bouh.JPG",
@@ -122,10 +123,9 @@ import './AlienList.css';
     planete: "ZigmaB",
     hobbies: "Regarder la Tv et manger des sandwichs"
   },
-  
-{
+  {
     id:12,
-    species: "alien",
+    species: "Alien",
     name: "Stereo Monovici",
     image: "https://64.media.tumblr.com/701ced851fdf2ecd3ece094baddbfd81/tumblr_pecna1Ii8y1uqo848o1_500.png",
     bonnitude:"Canon de l'espace",
@@ -133,10 +133,9 @@ import './AlienList.css';
     planete:"ZigmaB",
     hobbies:"Raconter des mythos",
   },
-  
-    {
+  {
     id:13,
-    species: "alien",
+    species: "Alien",
     name: "Ethno Polino",
     image: "https://64.media.tumblr.com/251a47a14c319a620fda2a3434d7c303/tumblr_pn7h9hYFMZ1t5fmi8_1280.jpg",
     bonnitude: "Canon de l'espace",
@@ -144,9 +143,9 @@ import './AlienList.css';
     planete: "ZigmaB",
     hobbies: "lire un livre, boire de l'eau",
   },
-{
+  {
     id:14,
-    species: "alien",
+    species: "Alien",
     name: "Gorgeous Klatoo" ,
     image: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.skyrock.net%2F1094%2F94401094%2Fpics%2F3254949950_1_7_QCXQM2ti.jpg&imgrefurl=https%3A%2F%2Fdessin-anime-enfance.skyrock.com%2F3254949950-34-Les-zinzins-de-l-espace.html&tbnid=6zx1VSNQXLTgjM&vet=12ahUKEwj4qYuipMHwAhUOShoKHbvbCecQMygKegUIARCDAQ..i&docid=ew2DjS1FRDiQ_M&w=225&h=225&q=les%20zinzins%20de%20l%27espace%20bleu&hl=fr&client=firefox-b-d&ved=2ahUKEwj4qYuipMHwAhUOShoKHbvbCecQMygKegUIARCDAQ#imgrc=6zx1VSNQXLTgjM&imgdii=iso5z5MbTE9tUM",
     bonnitude: "Débris de la galaxie",
@@ -156,7 +155,7 @@ import './AlienList.css';
   },
   {
     id:15,
-    species: "humain",
+    species: "Humain",
     name: "Lenda Oakland" ,
     image: "https://image.freepik.com/photos-gratuite/plan-horizontal-jolie-femme-peau-foncee-coiffure-afro-large-sourire-dents-blanches-montre-quelque-chose-gentil-ami-pointe-dans-coin-superieur-droit-se-tient-contre-mur_273609-16442.jpg",
     bonnitude: "Canon de l'espace",
@@ -164,9 +163,9 @@ import './AlienList.css';
     planete:"Terre",
     hobbies:"Boire un verre en terasse avec vu sur Neptune",
   },
-{
+  {
     id:16,
-    species: "humain",
+    species: "Humain",
     name: "Gilbert Booba" ,
     image: "https://www.zbrushcentral.com/uploads/default/original/4X/f/9/b/f9bcddd925b43b98c3f09aac2591d0dff20c6a15.jpeg",
     bonnitude: "Débris de la galaxie",
@@ -176,13 +175,19 @@ import './AlienList.css';
   }
 ];
 
+
 function AlienList() {
+  const [position, setPosition] = useState(0);
+  const profileSelection = profiles
+  .filter((element)=> element.species === localStorage.getItem('species') && element.bonnitude === localStorage.getItem('bonnitude'))
+  function handleClick(e){
+    e.preventDefault()
+    setPosition(position +1);
+  }
   return (
     <div>
-      {
-        profiles.filter (element) => 
-      }
-      <AlienItem/>
+      <AlienItem {...profileSelection[position]}/>
+      <button type="button" onClick={handleClick}>Next</button>
     </div>
   )
 }
