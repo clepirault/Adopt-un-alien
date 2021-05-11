@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-image: url("../images/galaxy.jpeg");
+}
+
+.Name {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.random-alien {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  color: rgb(78, 255, 101);
+}
+
+.random-alien .avatar-alien {
+  border-radius: 50%;
+  border: solid 6px rgb(78, 255, 101);
+}
+
+.like {
+  
+}
