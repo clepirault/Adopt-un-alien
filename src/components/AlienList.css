@@ -6,21 +6,56 @@ body {
 
 .Name {
   font-family: 'Press Start 2P', cursive;
-  color: white;
+  color: rgb(78, 255, 101);
+  font-size: 35px;
+  margin-top: 25px;
 }
 
 .random-alien {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content:space-around;
-  color: rgb(78, 255, 101);
+  align-items: center;
+  color: white;
+  font-size: 20px;
 }
 
 .random-alien .avatar-alien {
+  width: 18em;
+  height: 18em;
   border-radius: 50%;
   border: solid 6px rgb(78, 255, 101);
+  margin-top: 20px;
 }
 
-.like {
-  
+.random-alien .bonnitude {
+  filter: drop-shadow(0px 6px 2px rgba(79, 231, 74, 0.7));
+}
+
+.random-alien h1 {
+  margin-top: 10px;
+  margin-bottom: 2px;
+}
+
+.random-alien h2 {
+  margin-bottom: 10px;
+  margin-top: 18px;
+}
+
+.random-alien .phrase {
+  font-style: italic;
+}
+
+.kiffe {
+  background-color:rgba(79, 231, 74, 0.7);
+}
+
+.next {
+  background-color: tomato;
+}
+
+.buttons {
+  margin-top: 20px;
+  margin-bottom: 30px;
 }

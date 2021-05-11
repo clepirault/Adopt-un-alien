@@ -10,7 +10,7 @@ const profiles = [
     age:58,
     image:"https://djoul3.pagesperso-orange.fr/monstres&cie/personnages/sulli/sulli.JPG",
     bonnitude:"Canon de l'espace",
-    phrase:"Je sais comme personne pétrifier et tétaniser les gens avec mon gros duvet.Une esthéticienne fera mon affaire",
+    phrase:"Je sais comme personne pétrifier et tétaniser les gens avec mon gros duvet. Une esthéticienne fera mon affaire.",
     planete:"Monstropolis",
     hobbies:"TERREUR d'élite"
   },
@@ -94,7 +94,7 @@ const profiles = [
   {
     id:9,
     species: "Alien",
-    name:"Goerges Epouvanteur" ,
+    name:"Georges Epouvanteur" ,
     age:2319,
     image:"https://djoul3.pagesperso-orange.fr/monstres&cie/personnages/epouvanteur/epouvanteur.JPG",
     bonnitude:"Canon de l'espace",
@@ -165,9 +165,9 @@ const profiles = [
   },
   {
     id:16,
-    species: "Humain",
-    name: "Gilbert Booba" ,
-    image: "https://www.zbrushcentral.com/uploads/default/original/4X/f/9/b/f9bcddd925b43b98c3f09aac2591d0dff20c6a15.jpeg",
+    species:"Humain",
+    name:"Gilbert Booba" ,
+    image:"https://www.zbrushcentral.com/uploads/default/original/4X/f/9/b/f9bcddd925b43b98c3f09aac2591d0dff20c6a15.jpeg",
     bonnitude: "Débris de la galaxie",
     phrase: "Besoin de tendresse dans ce monde de brutes",
     planete:"Terre",
@@ -187,7 +187,10 @@ function AlienList() {
   return (
     <div>
       <AlienItem {...profileSelection[position]}/>
-      <button type="button" onClick={handleClick}>Next</button>
+      <div className="buttons">
+      <button className="next" type="button" onClick={handleClick}>Next</button>
+      <button className="kiffe" type="button">Toi j'te kiffe</button>
+      </div>
     </div>
   )
 }

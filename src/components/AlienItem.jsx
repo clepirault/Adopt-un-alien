@@ -10,9 +10,12 @@ function AlienItem(props) {
           alt='avatar'
         />
         <h1 className='Name'>{props.name}</h1>
-        <h1>{props.bonnitude}</h1>
-        <h1>{props.state}</h1>
-        <h1>{props.planete}</h1>
+        <h2>Je suis un(e) :</h2>
+        <h1 className="bonnitude">{props.bonnitude}</h1>
+        <h2>Ma philosophie :</h2>
+        <p className="phrase">{props.phrase}</p>
+        <h2>Ma planète :</h2>
+        <p>{props.planete}</p>
       </div>
     </div>
   );
