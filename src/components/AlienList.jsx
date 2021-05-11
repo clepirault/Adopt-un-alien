@@ -147,7 +147,7 @@ const profiles = [
     id:14,
     species: "Alien",
     name: "Gorgeous Klatoo" ,
-    image: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.skyrock.net%2F1094%2F94401094%2Fpics%2F3254949950_1_7_QCXQM2ti.jpg&imgrefurl=https%3A%2F%2Fdessin-anime-enfance.skyrock.com%2F3254949950-34-Les-zinzins-de-l-espace.html&tbnid=6zx1VSNQXLTgjM&vet=12ahUKEwj4qYuipMHwAhUOShoKHbvbCecQMygKegUIARCDAQ..i&docid=ew2DjS1FRDiQ_M&w=225&h=225&q=les%20zinzins%20de%20l%27espace%20bleu&hl=fr&client=firefox-b-d&ved=2ahUKEwj4qYuipMHwAhUOShoKHbvbCecQMygKegUIARCDAQ#imgrc=6zx1VSNQXLTgjM&imgdii=iso5z5MbTE9tUM",
+    image: "https://s2.qwant.com/thumbr/0x0/7/c/3324f84d21ff572619d283396cdb3fb35bc1ce24daa73269ca4e124838bc3d/Gorgious.jpg?u=http%3A%2F%2Fimg2.wikia.nocookie.net%2F__cb20101227225019%2Fspacegoofs%2Fimages%2F3%2F3a%2FGorgious.jpg&q=0&b=1&p=0&a=0",
     bonnitude: "Débris de la galaxie",
     phrase: "Je suis nouveau en ville, pourrais-tu m’indiquer le chemin pour aller à ton appartement ?",
     planete:"ZigmaB",
@@ -175,21 +175,33 @@ const profiles = [
   }
 ];
 
-
 function AlienList() {
   const [position, setPosition] = useState(0);
+  /* const [match, setMatch] = useState(''); */
+
   const profileSelection = profiles
   .filter((element)=> element.species === localStorage.getItem('species') && element.bonnitude === localStorage.getItem('bonnitude'))
+
   function handleClick(e){
     e.preventDefault()
     setPosition(position +1);
   }
+
+  let allMatches = [];
+
+  function handleMatch(e){
+    e.preventDefault()
+    localStorage.setItem('match', JSON.stringify(profileSelection[position]))
+  }
+
+  console.log(localStorage.getItem('match'));
+
   return (
     <div>
       <AlienItem {...profileSelection[position]}/>
       <div className="buttons">
-      <button className="next" type="button" onClick={handleClick}>Next</button>
-      <button className="kiffe" type="button">Toi j'te kiffe</button>
+      <button className="next" type="button" onClick={handleClick}>Euh, non.</button>
+      <button className="kiffe" type="button" onClick={handleMatch}>Toi j'te kiffe</button>
       </div>
     </div>
   )
