@@ -9,14 +9,16 @@ function Compte() {
     <div className='compte'>
       <div className="user">
         <h2>La Denrée</h2>
-        <img src={profil} alt='userAvatar' />
+        <img className="matchesAvatar" src={profil} alt='userAvatar' />
         <p>Ma philosophie : <br /> Bloubloubloubloublou</p>
         <p>Mes hobbies :J'aime manger la soupe humaine</p>
       </div>
+      <div className="matches-box">
       <h1>Mes matchs</h1>
       <MatchItem {...allMatches[0]} />
       <MatchItem {...allMatches[1]} />
       <MatchItem {...allMatches[2]} />
+    </div>
     </div>
   );
 }

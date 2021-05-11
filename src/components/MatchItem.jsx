@@ -1,15 +1,16 @@
 import React from 'react';
+import './MatchItem.css';
 
 function MatchItem(props) {
   const { name, image, bonnitude, phrase, hobbies } = props;
   return (
-    <div>
-      <img src={image} alt='profilePic' />
-      <h3>{name}</h3>
-      <p>je suis un(e) {bonnitude}</p>
-      <p>Ma philosophie</p>
+    <div className="avatar">
+      <img className="avatarmatches"src={image} alt='profilePic' />
+      <h3 className="match-name">{name}</h3>
+      <p><strong>Je suis un(e) : </strong>{bonnitude}</p>
+      <p><strong>Ma philosophie :</strong></p>
       <p>{phrase}</p>
-      <p>Dans la vie, j'aime :</p>
+      <p><strong>Dans la vie, j'aime :</strong></p>
       <p>{hobbies}</p>
     </div>
   );
