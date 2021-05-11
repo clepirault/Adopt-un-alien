@@ -174,7 +174,7 @@ const profiles = [
     hobbies:"Tuer"
   }
 ];
-
+let allMatches = [];
 function AlienList() {
   const [position, setPosition] = useState(0);
   /* const [match, setMatch] = useState(''); */
@@ -187,11 +187,12 @@ function AlienList() {
     setPosition(position +1);
   }
 
-  let allMatches = [];
-
   function handleMatch(e){
     e.preventDefault()
-    localStorage.setItem('match', JSON.stringify(profileSelection[position]))
+    console.log(JSON.stringify(profileSelection[position]))
+    allMatches.push(profileSelection[position])
+    localStorage.setItem('match', JSON.stringify(allMatches))
+    setPosition(position+1)
   }
 
   console.log(localStorage.getItem('match'));
