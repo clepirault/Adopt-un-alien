@@ -1,4 +1,5 @@
 import './Home.css';
+import Footer from './Footer'
 
 function Home() {
   const handleClic = (e) => {
@@ -57,6 +58,7 @@ function Home() {
         </div>
         <button type='button'>Go pour pécho !</button>
       </form>
+      <Footer />
     </div>
   );
 }

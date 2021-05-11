@@ -6,12 +6,12 @@ import {
   Link
 } from "react-router-dom";
 import './Footer.css';
-import go from '../assets/go.svg'
-import Ma_recherche from '../assets/Ma_recherche.svg'
-import Mon_compte from '../assets/Mon_compte.svg'
-import Compte from './Compte'
-import Home from './Home'
-import ProfilList from './ProfilList'
+import go from '../assets/go.svg';
+import Ma_recherche from '../assets/Ma_recherche.svg';
+import Mon_compte from '../assets/Mon_compte.svg';
+import Compte from './Compte';
+import Home from './Home';
+//import AlienList from './AlienList';
 
 function Footer(){
   
@@ -20,15 +20,9 @@ function Footer(){
       <Router>
         <div>
           <Switch>
-            <Route path="/compte">
-              <Compte />
-            </Route>
-            <Route path="/pecho">
-              <ProfilList />
-            </Route>
-            <Route exact path="/">
-              <Home />
-            </Route>
+            <Route exact path="/" component={Home}/>
+            <Route path="/compte" component={Compte}/>
+            
           </Switch>
         </div>
                
