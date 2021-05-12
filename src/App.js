@@ -26,9 +26,9 @@ function App() {
               <Home />
             </Route>
           </Switch>
-          <Link to="/"></Link>
-          <Link to="/compte"></Link>
-          <Link to="/pecho"></Link>
+            <Link to="/"></Link>
+            <Link to="/compte"></Link>
+            <Link to="/pecho"></Link>
           </Router>
           <Footer/>
     </div>

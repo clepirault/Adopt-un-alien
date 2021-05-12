@@ -16,6 +16,8 @@ function AlienItem(props) {
         <p className="phrase">{props.phrase}</p>
         <h2>Ma planète :</h2>
         <p>{props.planete}</p>
+        <h2>Mes hobbies :</h2>
+        <p>{props.hobbies}</p>
       </div>
     </div>
   );

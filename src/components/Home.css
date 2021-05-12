@@ -28,6 +28,7 @@ body{
   display: flex;
   justify-content: space-around;
 }
+
 .form div div{
   background-color: rgba(255, 255, 255, 0.4);
   width: 35vw;
