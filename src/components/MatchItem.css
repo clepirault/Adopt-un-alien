@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+section {
+  display: flex;
+}
+
+.avatar img {
+  border: 3px solid rgb(78, 255, 101);
+}
+
+.match-name {
+  color: rgb(78, 255, 101);
+  font-family: 'Press Start 2P', cursive;
+  margin-top: 20px;
+}
+
+.avatar p {
+  color: white;
+}
+
+.avatar {
+  margin-bottom: 50px;
+}
