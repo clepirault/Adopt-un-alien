@@ -1,4 +1,5 @@
 import './Compte.css';
+import Footer from './Footer';
 import MatchItem from './MatchItem';
 import profil from './profil.jpg';
 
@@ -26,6 +27,7 @@ function Compte() {
           return { ...match };
         })}
       </div>
+      <Footer/>
     </div>
   );
 }
