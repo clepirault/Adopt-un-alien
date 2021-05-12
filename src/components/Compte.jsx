@@ -1,5 +1,4 @@
 import './Compte.css';
-import MatchItem from './MatchItem';
 import profil from './profil.jpg';
 
 function Compte() {
