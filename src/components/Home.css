@@ -22,7 +22,6 @@ body {
   margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
 }
 .form div {
@@ -40,7 +39,7 @@ body {
 }
 button {
   background-color: rgba(255, 255, 255, 0.4);
-  height: 2em;
+  height: 3em;
   width: 30vw;
   color: white;
   border-radius: 1em;

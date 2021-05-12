@@ -1,4 +1,5 @@
 import './Home.css';
+import Footer from './Footer'
 
 function Home() {
   const handleClic = (e) => {
@@ -34,7 +35,7 @@ function Home() {
         </div>
         <h3>Bonnitude</h3>
         <div>
-          <div>
+          <div className="label-box">
             <label htmlFor="Canon de l'espace">Canon de l'espace</label>
             <input
               type='radio'
@@ -55,8 +56,9 @@ function Home() {
             />
           </div>
         </div>
-        <button type='button'>Go pour pécho !</button>
+        <button className="pecho" type='button'>Go pour pécho !</button>
       </form>
+      
     </div>
   );
 }

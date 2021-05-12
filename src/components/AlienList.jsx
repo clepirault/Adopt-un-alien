@@ -45,7 +45,7 @@ const profiles = [
     bonnitude:"Débris de la galaxie",
     phrase:"A cheval sur les détails et les principes, j'ai une vivacité d'esprit surprenante pour une limace",
     planete:"Epouvanteuse",
-    hobbies:"lire mes journaux à scandale pendant mon heure de déjeuner"
+    hobbies:"lire des journaux à scandale pendant mon heure de déjeuner"
   },
   {
     id:5,
