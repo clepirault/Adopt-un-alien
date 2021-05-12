@@ -57,7 +57,7 @@ function Home() {
         </div>
         <button className="pecho" type='button'>
           <a href="/pecho">
-          Go pour pécho !
+          GO PECHO !
           </a>
         </button>
       </form>

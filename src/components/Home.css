@@ -38,9 +38,13 @@ body {
   justify-content: space-around;
 }
 button {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgb(78, 255, 101);
   height: 3em;
   width: 30vw;
   color: white;
   border-radius: 1em;
+}
+.pecho a{
+  color: black;
+  font-weight: bold;
 }
