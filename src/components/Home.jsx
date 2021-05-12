@@ -58,7 +58,7 @@ function Home() {
         </div>
         <button type='button'>Go pour pécho !</button>
       </form>
-      <Footer />
+      
     </div>
   );
 }
