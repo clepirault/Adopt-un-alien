@@ -15,11 +15,18 @@
  }
 
 .container p {
+  margin: 0;
+  padding: 0;
   width: 25vw;
 } 
-
-img {
-  max-width: 5em;
+.searchIcon{
+  width: 6em;
+}
+.compteIcon{
+  width: 6em;
+}
+.pechoIcon{
+  width: 6em;
 }
 
 a {
