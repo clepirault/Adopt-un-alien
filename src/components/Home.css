@@ -22,7 +22,6 @@ body{
   margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
 }
 .form div{
@@ -47,3 +46,8 @@ button{
   border-radius: 1em;
   font-size: 20px;
 }
+
+.pecho {
+  margin-top: 30px;
+}
+
