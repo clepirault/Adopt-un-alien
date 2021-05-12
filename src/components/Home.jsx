@@ -55,13 +55,7 @@ function Home() {
             />
           </div>
         </div>
-        <button className="pecho" type='button'>
-          <a href="/pecho">
-          GO PECHO !
-          </a>
-        </button>
       </form>
-      
     </div>
   );
 }
