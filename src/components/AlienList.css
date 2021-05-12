@@ -12,7 +12,7 @@ body {
 }
 
 .random-alien {
-  width: 100%;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content:space-around;
@@ -21,7 +21,7 @@ body {
   font-size: 20px;
 }
 
-.random-alien .avatar-alien {
+.random-alien img {
   width: 18em;
   height: 18em;
   border-radius: 50%;
@@ -57,5 +57,5 @@ body {
 
 .buttons {
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10em;
 }

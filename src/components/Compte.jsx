@@ -24,7 +24,7 @@ function Compte() {
       <div className='matches-box'>
         <h1>Mes matchs ❤️</h1>
         {allMatches.slice(0, 3).map((match) => {
-          return { ...match };
+          return <MatchItem {...match}/>;
         })}
       </div>
       <Footer/>
