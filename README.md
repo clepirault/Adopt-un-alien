@@ -5,7 +5,7 @@
 <p>⏳ 24 hours hackathon</p>
 
 ## Goal 🎯 :
-Create an app in React & with API integration on a 24 hours hackathon
+Create an app in React & with API integration for a 24 hours hackathon
 
 ## Stack 💎 :
 **React**
