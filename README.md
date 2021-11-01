@@ -1,6 +1,6 @@
 # Adopt-1-Alien
 
-<p>👽 This is a project of a dating app (mobile device only) for helping humans and aliens in space falling in love</p>
+<p>👽 This is a dating app (mobile device only) for helping humans and aliens in space falling in love</p>
 <p>🎓 Wild Code School project</p>
 <p>⏳ 24 hours hackathon</p>
 
