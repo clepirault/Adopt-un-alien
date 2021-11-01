@@ -11,5 +11,11 @@ Create an app in React & with API integration within 24 hours
 ## Stack 💎 :
 **React**
 
+## 100% female team 💪 :
+* [Bénédicte](https://github.com/bpichery)
+* [Margot](https://github.com/MargotToullier)
+* [Ninon](https://github.com/NinonMaraval)
+* And me 👩
+
 ## Links 🔗 :
 [Portfolio](https://clemence-pirault.vercel.app/portfolio/adopt-1-alien)
