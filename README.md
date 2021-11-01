@@ -18,6 +18,6 @@ Create an app in React & with API integration within 24 hours
 * And me 👩
 
 ## Links 🔗 :
-[Website](https://adopt-1-alien.netlify.app/)
-[API](https://github.com/clepirault/WCS-Hackathon-adopt-un-alien/blob/dev/src/components/AlienList.jsx)
-[Portfolio](https://clemence-pirault.vercel.app/portfolio/adopt-1-alien)
+* [Website](https://adopt-1-alien.netlify.app/)
+* [API](https://github.com/clepirault/WCS-Hackathon-adopt-un-alien/blob/dev/src/components/AlienList.jsx)
+* [Portfolio](https://clemence-pirault.vercel.app/portfolio/adopt-1-alien)
